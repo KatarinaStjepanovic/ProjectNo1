@@ -1,0 +1,351 @@
+
+.btn #button1,#button2,#button3,#button4,#button5,#button6{
+   align-items: center;
+   font-family: Poppins;
+   font-weight: 700;
+   border: none;
+   border-radius: 6px;
+   padding: 10px 15px 15px 10px;
+   width: 80px;
+   height: 50px;
+   margin-left:20px;
+   margin-right: 20px;;
+  
+   
+}
+
+
+#button1:hover{
+    background-color: #051b59;
+   width: 90px;
+   height: 60px;
+   border-radius: 9px;
+   box-shadow: 3px -0px 2px rgba(8, 54, 181, 0.02),
+10px -1px 8px rgba(8, 54, 181, 0.04),
+23px -2px 18px rgba(8, 54, 181, 0.07),
+42px -3px 32px rgba(8, 54, 181, 0.09),
+65px -5px 50px rgba(8, 54, 181, 0.11);
+}
+#button3:hover{
+    background-color: #051b59;
+    width: 90px;
+    height: 60px;
+    border-radius: 9px;
+    box-shadow: 3px -0px 2px rgba(8, 54, 181, 0.02),
+10px -1px 8px rgba(8, 54, 181, 0.04),
+23px -2px 18px rgba(8, 54, 181, 0.07),
+42px -3px 32px rgba(8, 54, 181, 0.09),
+65px -5px 50px rgba(8, 54, 181, 0.11);
+}
+#button5:hover{
+    background-color: #051b59;
+    width: 90px;
+    height: 60px;
+    border-radius: 9px;
+    box-shadow: 3px -0px 2px rgba(8, 54, 181, 0.02),
+10px -1px 8px rgba(8, 54, 181, 0.04),
+23px -2px 18px rgba(8, 54, 181, 0.07),
+42px -3px 32px rgba(8, 54, 181, 0.09),
+65px -5px 50px rgba(8, 54, 181, 0.11);
+}
+#button2:hover{
+    background-color: #ffffff;
+    width: 90px;
+    height: 60px;
+    border-radius: 9px;
+    box-shadow: 3px -0px 2px rgba(8, 54, 181, 0.02),
+10px -1px 8px rgba(8, 54, 181, 0.04),
+23px -2px 18px rgba(8, 54, 181, 0.07),
+42px -3px 32px rgba(8, 54, 181, 0.09),
+65px -5px 50px rgba(8, 54, 181, 0.11);
+}
+#button4:hover{
+    background-color: white;
+    width: 90px;
+    height: 60px;
+    border-radius: 9px;
+    box-shadow: 3px -0px 2px rgba(8, 54, 181, 0.02),
+10px -1px 8px rgba(8, 54, 181, 0.04),
+23px -2px 18px rgba(8, 54, 181, 0.07),
+42px -3px 32px rgba(8, 54, 181, 0.09),
+65px -5px 50px rgba(8, 54, 181, 0.11);
+}
+#button6:hover{
+    background-color: white;
+    width: 90px;
+    height: 60px;
+    border-radius: 9px;
+    box-shadow: 3px -0px 2px rgba(8, 54, 181, 0.02),
+10px -1px 8px rgba(8, 54, 181, 0.04),
+23px -2px 18px rgba(8, 54, 181, 0.07),
+42px -3px 32px rgba(8, 54, 181, 0.09),
+65px -5px 50px rgba(8, 54, 181, 0.11);
+
+}
+
+
+#button1{
+    /*background-color: #fbbf24;*/
+   
+    background-color:#1e3a8a ;
+    color: #ffffff;
+   
+   
+   
+
+    
+}
+#button2{
+    background-color: #ffffff;
+   
+    color:#1e3a8a ;
+   
+    
+}
+#button3{
+   /* background-color: #e11d48;*/
+   
+  
+    background-color:#1e3a8a ;
+    color: #ffffff;
+    ;
+    
+}
+#button4{
+    background-color: #ffffff;
+   
+    color:#1e3a8a ;
+   
+    
+}
+#button5{
+   /* background-color: gray;*/
+  
+    background-color:#1e3a8a ;
+    color: #ffffff;
+    
+}
+#button6{
+    background-color: #ffffff;
+   
+    color:#1e3a8a ;
+    
+}
+#question{
+    font-family: Poppins;
+    font-weight: 500;
+    color:#1e3a8a ;
+
+}
+#menu{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    background-color: #1e3a8a;
+    height: 65 px;
+   max-height: 65Spx;
+  
+    
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+    justify-content: space-between;
+   
+}
+
+
+#content{
+    display: none;
+    position: absolute;
+    color: #1e3a8a;
+    background-color: white;
+    /*min-width: 160px;*/
+    z-index: 1;
+box-shadow: 3px -0px 2px rgba(8, 54, 181, 0.02),
+10px -1px 8px rgba(8, 54, 181, 0.04),
+23px -2px 18px rgba(8, 54, 181, 0.07),
+42px -3px 32px rgba(8, 54, 181, 0.09),
+65px -5px 50px rgba(8, 54, 181, 0.11);
+     font-family: Poppins;
+     text-align: center;
+             
+
+}
+
+.dropdown:hover #content{
+   display:block;
+   min-width: 200px;
+   
+}
+
+.dropdown a:hover{
+    color:#0b1a44;
+    font-weight: 800;
+}
+#hello:hover{
+    font-size: large;
+    color: rgb(252, 252, 252);
+    cursor: pointer;
+}
+#hello{
+    font-family: Poppins; 
+    font-weight: 800; 
+    color: white; 
+    margin: 20px;
+    display: flex;
+}
+
+.wave {
+    /* Never stop waving :) */
+    transform-origin: 70% 70%;       /* Pivot around the bottom-left palm */
+    display: none;
+  }
+
+  #hello:hover .wave{
+    animation-name: wave-animation;  /* Refers to the name of your @keyframes element below */
+    animation-duration: 2.5s;        /* Change to speed up or slow down */
+    animation-iteration-count: infinite; 
+    display:block;
+    position: relative ;
+    transform-origin: 70% 70%;       /* Pivot around the bottom-left palm */
+    display: inline-block;
+   
+    
+  }
+
+  #wave-hand{
+    justify-self:flex-start;
+    
+  }
+  
+  @keyframes wave-animation {
+      0% { transform: rotate( 0.0deg) }
+     10% { transform: rotate(14.0deg) }  /* The following five values can be played with to make the waving more or less extreme */
+     20% { transform: rotate(-8.0deg) }
+     30% { transform: rotate(14.0deg) }
+     40% { transform: rotate(-4.0deg) }
+     50% { transform: rotate(10.0deg) }
+     60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
+    100% { transform: rotate( 0.0deg) }
+  }
+
+
+  @media only screen and (max-width: 640px) {
+    #question {
+        grid-area: quest;
+        display: block;
+    }
+   #button1 {
+    grid-area:btn1;
+    display:block;
+    width: 400px !important;
+    margin-bottom:20px;
+        margin-top:20px;
+   }
+    #button2 {
+        grid-area: btn2;
+        display: block;
+        width:400px;
+        margin-bottom:20px;
+        margin-top:20px;
+    }
+    #button3 {
+        grid-area: btn3;
+        display: block;
+        width:400px;
+        margin-top:20px;
+    }
+    #button4 {
+        grid-area: btn4;
+        display: block;
+        width:400px;
+        margin-bottom:20px;
+        margin-top:20px;
+    }
+    #button5 {
+        grid-area: btn5;
+        display: block;
+        width:400px;
+        margin-bottom:20px;
+        margin-top:20px;
+    }
+    #button6 {
+        grid-area: btn6;
+        display: block;
+        align-self:center;
+        width:400px;
+        margin-bottom:20px;
+        margin-top:20px;
+    }
+    #menu{
+        grid-area: menu1;
+        display: block;
+       max-height:65px;
+       justify-content:space-between;
+       align-items:center;
+    }
+    #dots{
+      
+        display: none;
+    }
+    
+    
+
+    .grid-container {
+        display: grid!important;
+        gap: 10px;
+        align-items:center;
+        justify-content:center;
+        grid-template-areas:
+            'menu1'
+            'quest'
+            'btn1'
+            'btn2'
+            'btn3'
+            'btn4'
+            'btn5'
+            'btn6';
+    }
+
+    #button1:hover{
+      box-shadow:10px 10px 5px lightblue;
+      width:400px;
+
+    }
+    #button2:hover{
+      box-shadow:10px 10px 5px lightblue;
+        width:400px;
+   
+   }
+   #button3:hover{
+    box-shadow:10px 10px 5px lightblue;
+    width:400px;
+
+  }
+  #button4:hover{
+    box-shadow:10px 10px 5px lightblue;
+      width:400px;
+ 
+ }
+ #button5:hover{
+    box-shadow:10px 10px 5px lightblue;
+    width:400px;
+    
+
+  }
+  #button6:hover{
+    box-shadow:10px 10px 5px lightblue;
+      width:400px;
+     
+    }
+  }
+
+
+
+
+ 
+
+
+
+
